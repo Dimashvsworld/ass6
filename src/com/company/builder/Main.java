@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        House whiteHouse = new House.Builder()
+        House SomeHouse = new House.Builder()
                 .windows(6)
                 .doors(6)
                 .rooms(4)
@@ -13,7 +13,7 @@ public class Main {
                 .hasStatues(true)
                 .hasGarden(true)
                 .build();
-        System.out.println(whiteHouse);
+        System.out.println(SomeHouse);
 
     }
 }
